@@ -22,7 +22,10 @@ function Header() {
         </Link>
         <div>
           {isLoggedIn ? (
+            <>
+            <Button text="Dashboard" url="/dashboard"/>
             <button onClick={handleLogout}>Logout</button>
+            </>
           ) : (
             <>
               <Button text="Login" url="/login" />
