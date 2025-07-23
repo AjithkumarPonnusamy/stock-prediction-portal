@@ -21,7 +21,7 @@ const Register = () => {
          setSuccess(true)
         }
         catch(error){
-            console.error('Registration Error:',error.response.data)
+            console.error('Registration Error:',error.response.data) 
         }
     }
   return (
